@@ -1,0 +1,8 @@
+body {
+  color: white;
+  background: #231c31;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 30px;
+  font-size: 18px;
+}

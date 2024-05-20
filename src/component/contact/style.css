@@ -1,0 +1,42 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0 auto 0;
+    gap: 10px;
+    background-color: rgb(67, 50, 95);
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+
+.contactItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    transition: all 0.3s ease;
+}
+.contactItem img {
+    height: 20px;
+    border-radius: 6px;
+}
+
+.contactItem  span {
+    padding-left: 10px;
+    color: inherit;
+}
+
+.contactItem  span:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    color: greenyellow;
+    margin: 0 20px;
+}
+
+
+.filterWhite {
+    filter: invert(99%) sepia(0%) saturate(360%) hue-rotate(85deg) brightness(115%) contrast(100%);
+}
